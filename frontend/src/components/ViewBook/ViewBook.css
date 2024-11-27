@@ -1,0 +1,39 @@
+.hover-button {
+    flex: 1;
+    height: 40px;
+    background: #FFF;
+    border-radius: 12px;
+    border: 1px solid #E8EDF2;
+    color: #0D141C;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hover-button:hover {
+    background-color: red;
+    color: white; /* Optional: Change text/icon color on hover */
+  }
+  
+
+  .hover-button2 {
+    flex: 1;
+    height: 40px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #E8EDF2;
+    color: #0D141C;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  }
+  
+  .hover-button2:hover {
+    background-color: gray; /* Dark gray */
+    color: white; /* Change text/icon color to white for contrast */
+  }
+  

@@ -1,0 +1,141 @@
+.navbar {
+    border-bottom: 1px solid #e5e8eb;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 12px 40px;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .navbar-left {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .logo-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .logo-text {
+    color: #121417;
+    font: 700 18px/1 'Work Sans', sans-serif;
+  }
+  
+  .nav-links {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 36px;
+    color: #121417;
+    font: 500 14px 'Work Sans', sans-serif;
+  }
+  
+  .nav-link {
+    white-space: nowrap;
+  }
+  
+  .navbar-right {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 32px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  
+  .search-container {
+    display: flex;
+    width: 160px;
+    max-width: 256px;
+  }
+  
+  .search-input {
+    border-radius: 12px;
+    display: flex;
+    width: 100%;
+  }
+  
+  .search-icon {
+    border-radius: 12px 0 0 12px;
+    background-color: #f0f2f5;
+    display: flex;
+    padding-left: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .search-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .search-placeholder {
+    border-radius: 0 12px 12px 0;
+    background-color: #f0f2f5;
+    color: #637587;
+    padding: 8px 16px 8px 8px;
+    font: 400 16px 'Work Sans', sans-serif;
+    flex: 1;
+  }
+  
+  .action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .action-button {
+    border-radius: 12px;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0 10px;
+  }
+  
+  .action-button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
