@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Libro/static/css/main.fb6fb27f.css",
+    "main.js": "/Libro/static/js/main.54919fce.js",
+    "static/media/Img2.png": "/Libro/static/media/Img2.11d99308dad4d9446978.png",
+    "index.html": "/Libro/index.html",
+    "main.fb6fb27f.css.map": "/Libro/static/css/main.fb6fb27f.css.map",
+    "main.54919fce.js.map": "/Libro/static/js/main.54919fce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb6fb27f.css",
+    "static/js/main.54919fce.js"
+  ]
+}
